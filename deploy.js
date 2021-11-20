@@ -3,10 +3,8 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-  'REPLACE_WITH_YOUR_MNEMONIC',
-  // remember to change this to your own phrase!
-  'https://rinkeby.infura.io/v3/15c1d32581894b88a92d8d9e519e476c'
-  // remember to change this to your own endpoint!
+  'surprise siege now sketch ready bubble garbage chuckle salt entire increase little',
+  'https://rinkeby.infura.io/v3/e36561f9e3064d9faf110a71fcfd5d6d'
 );
 const web3 = new Web3(provider);
 
